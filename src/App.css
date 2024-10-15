@@ -1,0 +1,59 @@
+.App {
+  margin: 0 auto;
+  width: 75%;
+  color: var(--text-primary-color);
+}
+
+.App-header {
+  text-align: center;
+}
+
+.primary-button, .secondary-button {
+  border: none;
+  padding: 0 18px;
+  height: 36px;
+  border-radius: 38px;
+  color: var(--white);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.primary-button {
+  background: var(--interactive-color);
+}
+
+.secondary-button {
+  background: var(--gray-2-color);
+  color: var(--text-primary-color)
+}
+
+.primary-button:hover, .secondary-button:hover {
+  filter: brightness(85%);
+}
+
+.error-text {
+  color: var(--error-color);
+}
+
+.CommentForm {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.CommentList {
+  margin: 0 auto;
+  max-width: 500px;
+  margin-top: 2em;
+}
+
+.top-right {
+  position: fixed;
+  top: 8px;
+  right: 8px;
+  opacity: 1;
+}
+
+.center {
+  text-align: center;
+}
